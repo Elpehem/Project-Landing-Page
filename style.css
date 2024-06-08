@@ -1,0 +1,92 @@
+
+body    {
+    font-family: "Roboto";
+    margin: 0px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8 ;
+    padding: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+/* Remove default list styling */
+ul {
+    list-style: none;
+    padding: 0px;
+    gap: 20px;
+}
+
+/* Set menu links styling */
+a  {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration-line: none;
+} 
+
+/* Set logo styling */
+.logo {
+    font-size: 24px;
+    align-content: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+/* Set header menu display as row */
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* Set header links display as row */
+.menu_links {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+/* Sets header content as row to display image on the right */
+.header_content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.header_content_text {
+    max-width: 400px;
+}
+.header_content_text_title {
+    font-size: 48px;
+    font-weight: bolder;
+    text-wrap: wrap;
+}
+
+.header_content_text_body {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-wrap: wrap;
+}
+
+img {
+    width: 450px;
+}
+
+.header_signup  {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border: none;
+
+}
