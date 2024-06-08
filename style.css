@@ -160,6 +160,7 @@ a  {
     font-weight: bold;
 }
 
+/* Set call to action box appearance */
 .content_call-to-action {
     background-color: #3882F6;
     margin: 50px;
@@ -198,3 +199,14 @@ a  {
     padding-right: 20px;
 }
 
+/* |||||| Content End |||||| */
+
+/* |||||| Footer |||||| */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
