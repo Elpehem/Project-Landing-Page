@@ -4,6 +4,7 @@ body    {
     margin: 0px;
 }
 
+/* |||||| Header |||||| */
 .header {
     background-color: #1F2937;
     color: #F9FAF8 ;
@@ -75,8 +76,8 @@ a  {
     text-wrap: wrap;
 }
 
-img {
-    width: 450px;
+.header_image {
+    width: 500px;
 }
 
 .header_signup  {
@@ -90,3 +91,110 @@ img {
     border: none;
 
 }
+
+/* |||||| Header End |||||| */
+
+/* |||||| Content |||||| */
+
+.content_info {
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.content_info_title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Display cards as row */
+.card_stage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Set card image size and shape */
+.card_image {
+    resize: both;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    align-self: center;
+    }
+/* Set card subtext formatting */
+.card_subtext {
+    text-wrap: wrap;
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.content_quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    
+}
+
+.quote_author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.content_call-to-action {
+    background-color: #3882F6;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #F9FAF8;  
+    display: flex;
+    flex-direction: row; 
+    border-radius: 5px;
+    padding: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.action_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action_text_content {
+    font-size: 14px ;
+}
+
+.bottom_button {
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #3882F6;
+    box-shadow: none;
+    color: #F9FAF8;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
